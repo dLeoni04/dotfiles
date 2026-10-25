@@ -1,1 +1,1 @@
-Repository per mantenere organizzati i file e le cartelle di configurazione per bash e per le applicazioni utilizzabili da riga di comando
+Repository contenente i "dotfiles" delle mie applicazioni linux, creato per essere usato insiene al software [GNU Stow](https://www.gnu.org/software/stow/), un gestore di link simbolici.

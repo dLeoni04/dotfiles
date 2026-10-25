@@ -51,3 +51,4 @@ alias artcraft="flatpak run ai.storyteller.artcraft-launcher"
 
 # Stupid alias to experiment
 alias hello="echo Ciao $USER, come butta? Spero tutto alla grande!"
+

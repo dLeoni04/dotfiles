@@ -1,9 +1,10 @@
 # Scelta del browser nel quale aprire gli articoli
 browser "lynx %u"
 
-# Comando per aprire i video YouTube con mpv, ma a me non funziona mai...
-#macro w set browser "mpv %u" ; open-in-browser ; set browser "brave %u"
-macro w set browser "mpv --ytdl-format='bestvideo[height<=480]+bestaudio/best[height<=480]' %u" ; open-in-browser ; set browser "brave %u"
+# Comando per aprire i video YouTube con mpv
+#macro v set browser "mpv %u" ; open-in-browser ; set browser "brave %u"
+macro v set browser "mpv %u" ; open-in-browser ; set browser "brave %u"
+
 
 # Refresh rules
 refresh-on-startup yes
