@@ -1,0 +1,6 @@
+# Ignora file di cache e database
+*.db
+*.sqlite
+*.log
+cache/
+.cache/
