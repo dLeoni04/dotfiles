@@ -12,8 +12,6 @@ set shiftwidth=4
 syntax on
 
 " IMPOSTAZIONI SPECIFICHE PER IL MARKDOWN
-" Rileva automaticamente i file con estensione .md come markdown
-autocmd BufNewFile,BufRead *.md set filetype=markdown
 
 " Configurazioni specifiche applicate solo quando modifichi file Markdown
 autocmd FileType markdown setlocal 
@@ -22,3 +20,11 @@ autocmd FileType markdown setlocal
     \ spell               " Attiva il controllo ortografico integrato
     \ spelllang=it,en     " Imposta il dizionario in italiano e inglese per il controllo ortografico
     \ conceallevel=2      " Nasconde o stilizza i simboli di formattazione superflui (es. asterischi del grassetto) se supportato dal tema
+
+" VimWiki Roba
+set nocompatible
+filetype plugin on
+" Configurazioni VimWiki
+let g:vimwiki_list = [{'syntax': 'markdown', 
+                      \ 'ext': 'md', 'path': 
+                      \ '~/Nextcloud/VimWiki/'}]
