@@ -30,8 +30,8 @@ alias fwd="sudo ufw disable"
 alias fwal="sudo ufw allow"
 alias fwden="sudo ufw deny"
 
-# Autonomix
-alias apps="autonomix-cli"
+# Micro Text Editor
+alias micro="./micro"
 
 # Wine Apps
 alias arcade="wine /home/davide/Scrivania/ARCADE64_288_29052026/arcade64.exe"
